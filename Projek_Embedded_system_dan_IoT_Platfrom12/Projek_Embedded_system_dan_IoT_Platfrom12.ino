@@ -8,10 +8,10 @@
 
 Servo myservo;  // create servo object to control a servo
 
-#define ssid "BIFS-U01"  //WiFi SSID
-#define password "sky12030"  //WiFi Password
-#define FIREBASE_HOST "https://esp32fproject-default-rtdb.asia-southeast1.firebasedatabase.app/"       //Firebase Project URL Remove "https:" , "\" and "/"
-#define FIREBASE_AUTH "vgFKILGQ3yxdzO6TjPmByBeQ7ERqTIHC06JtTvdq"      //Firebase Auth Token
+#define ssid ""  //WiFi SSID
+#define password ""  //WiFi Password
+#define FIREBASE_HOST ""       //Firebase Project URL Remove "https:" , "\" and "/"
+#define FIREBASE_AUTH ""      //Firebase Auth Token
 
 FirebaseData fbdo; //fbdo adalah variabel.
 FirebaseConfig config; 
